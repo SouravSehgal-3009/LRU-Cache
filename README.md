@@ -9,8 +9,11 @@ It is implemented with STL containers- list (implementing Doubly Linked List) an
 
 First, **LRU Cache instance** is created with a maximum size **maxSize**.
 **Working of LRU Cache Operations**
+
 **1. insert_key_value(key,pair)**
+
 **Case 1: Given key is already present in the cache.** In this case function updates the value of key in the cache.
+
 **Case 2: Given key is not present in the cache before** The new key is inserted in the front of list. If the cache size is already equal to maxSize, then the key which was not used recently i.e. key at last position of the list is removed from cache and then, new key is inserted in the front of list.
 
 **2. getValue(key)**
