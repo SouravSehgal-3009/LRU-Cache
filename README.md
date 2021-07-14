@@ -16,9 +16,9 @@ First, **LRU Cache instance** is created with a maximum size **maxSize**.
 
 **Case 2: Given key is not present in the cache before** The new key is inserted in the front of list. If the cache size is already equal to maxSize, then the key which was not used recently i.e. key at last position of the list is removed from cache and then, new key is inserted in the front of list.
 
-**2. getValue(key)**
+**2. getValue(key):**
 The node address of key is returned if it exists in the cache otherwise NULL is returned.
 
-**3. most_recent_key()**
+**3. most_recent_key():**
 Returns the Most Recently Used key from cache
 
